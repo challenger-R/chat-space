@@ -1,0 +1,28 @@
+.chat-side
+  .side-header
+    .side-header__bar
+      %p.side-header__bar__username
+        いち
+      %ul.side-header__bar__menu
+        %li.edit
+          = link_to '#' do
+            = icon('fa', 'edit', class: 'icon')
+        %li.cog
+          = link_to '#' do
+            = icon('fa', 'cog', class: 'icon')
+  .groups
+    .group
+      .group__name
+        グループ名
+      .group__message
+        まだメセージがありません
+    .group
+      .group__name
+        グループ名
+      .group__message
+        まだメセージがありません
+    .group
+      .group__name
+        グループ名
+      .group__message
+        まだメセージがありません
