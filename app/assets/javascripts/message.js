@@ -12,7 +12,7 @@ $(function() {
             </div>
           </div>
           <div class="lower-message">
-            <p class="lower-message__conttent">
+            <p class="lower-message__content">
               ${message.content}
             </p>
           </div>
