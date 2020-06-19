@@ -107,7 +107,7 @@
 }
 
 .messages {
-  padding: 35px 0 0 40px;
+  padding: 46px 40px;
   overflow: scroll;
   height: calc(100vh - 190px);
   .message {
@@ -116,6 +116,7 @@
      &__user-name {
        color: #333333;
        font-size: 16px;
+       font-weight: bold;
        padding-bottom: 12px;
        display: flex;
      }
@@ -129,7 +130,7 @@
      &__content {
        color: #434a54;
        font-size: 14px;
-       padding-bottom: 46px;
+       margin-bottom: 10px;
       }
     }
   }
